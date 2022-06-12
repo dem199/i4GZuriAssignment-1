@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABOUT ME</title>
+    <script
+      src="https://kit.fontawesome.com/eac77771df.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+
+        background-image: url("IMG_3646.PNG");
+        background-size: cover;
+
+        width: 100%;
+        text-align: center;
+        height: max-content;
+        padding-top: 0px 5px 5px 5px;
+      }
+
+      h1 {
+        text-align: left;
+      }
+
+      ul {
+        list-style-type: none;
+        overflow: hidden;
+      }
+      ol {
+        list-style-type: none;
+        overflow: hidden;
+      }
+      li {
+        float: right;
+        border-right: 1px solid blue;
+        border-style: solid;
+        border-color: blue;
+        border-left: 1px solid blue;
+        border-radius: 12px;
+      }
+      li:last-child {
+        border-right: none;
+      }
+      .active {
+        background-color: darkgray;
+      }
+      li a:hover {
+        background-color: blue;
+        color: white;
+      }
+
+      .opic {
+        background-color: white;
+      }
+
+      li a {
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+      }
+
+      p {
+        text-align: center;
+        color: white;
+        font-weight: 150px;
+        font-size: 15px;
+        line-height: 25px;
+      }
+      .div {
+        height: 630px;
+        width: 37%;
+        margin-left: 0%;
+
+        border-radius: 10px;
+        flex-basis: 31%;
+        text-align: center;
+        float: left;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: white;
+      }
+
+      img {
+        width: 590px;
+
+        float: left;
+
+        height: 350px;
+        margin-left: 0%;
+
+        border-radius: 50%;
+      }
+      div {
+        width: fit-content;
+        float: right;
+      }
+      .active1 {
+        color: white;
+        font-size: 14px;
+        padding: 0px 5px;
+        float: left;
+        border: 0px;
+      }
+      h2 {
+        float: left;
+      }
+      .p {
+        color: blue;
+        justify-content: center;
+      }
+      .fa-facebook {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-facebook:hover {
+        cursor: pointer;
+        color: blue;
+      }
+      .fa-instagram {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-instagram:hover {
+        cursor: pointer;
+        color: red;
+      }
+      .fa-whatsapp {
+        font-size: 40px;
+        color: white;
+      }
+
+      .fa-whatsapp:hover {
+        cursor: pointer;
+        color: green;
+      }
+      .fa-github {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-github:hover {
+        cursor: pointer;
+        color: black;
+      }
+      .fa-twitter {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-twitter:hover {
+        cursor: ponter;
+        color: royalblue;
+      }
+      .fa-linkedin {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-linkedin:hover {
+        cursor: pointer;
+        color: blue;
+      }
+      .fa-quora {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-quora:hover {
+        cursor: pointer;
+        color: red;
+      }
+      .fa-medium {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-medium:hover {
+        cursor: pointer;
+        color: black;
+      }
+      .container {
+        justify-content: center;
+        float: left;
+      }
+      #p {
+        text-align: center;
+        color: white;
+        font-weight: 200px;
+        font-size: 12px;
+        line-height: 30px;
+        padding: 0%;
+      }
+      #button {
+        display: inline-block;
+        width: 10%;
+        height: 60px;
+        border: 2px solid blue;
+        border-radius: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.1rem;
+        color: blue;
+
+        font-size: larger;
+        font-style: inherit;
+      }
+      #button:hover {
+        border-color: green;
+      }
+
+      @media screen and (max-width: 600px) {
+        img {
+          width: 90%;
+          height: 350px;
+          float: initial;
+        }
+        #p {
+          text-align: center;
+          color: white;
+          font-weight: 150px;
+          font-size: 12px;
+          line-height: 25px;
+          padding: 3%;
+        }
+        .div {
+          height: 750px;
+          width: 100%;
+          margin-left: 0%;
+
+          border-radius: 10px;
+
+          text-align: center;
+        }
+        li a {
+          display: flex;
+          color: blue;
+          text-align: center;
+          padding: 10px 10px;
+          text-decoration: none;
+          font-size: 10px;
+          font-weight: bold;
+        }
+        li {
+          float: right;
+          padding: 5px 5px;
+
+          font-size: 10px;
+        }
+        #button {
+          width: 25%;
+          font-size: 14px;
+        }
+        .fa-brands {
+          font-size: 20px;
+        }
+
+        div {
+          width: fit-content;
+          float: left;
+        }
+        .active1 {
+          color: white;
+          font-size: 12px;
+          padding: 5px 5px;
+          float: left;
+          border: 0px;
+        }
+        h1 {
+          font-size: 22px;
+        }
+        h2 {
+          font-size: 20px;
+        }
+        .p {
+          color: blue;
+          justify-content: center;
+        }
+        h3 {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="active" href="index.html">ABOUT ME</a></li>
+          <li><a class="opic" href="contact.html">CONTACT ME</a></li>
+          <li><a class="active" href="registration.html">REGISTER</a></li>
+          <li><a class="opic" href="login.html">LOGIN</a></li>
+        </ul>
+
+        <br /><br />
+        <h1>Hi! Welcome to my page.</h1>
+        <h2>Optimistic is your friend</h2>
+      </nav>
+      <br /><br />
+    </header>
+
+    <br />
+    <main>
+      <br /><br />
+
+      <div class="div">
+        <img src="IMG_3568.PNG" />
+        <p id="p">
+          I am <span><b>Opeyemi Ademola Olatunbosun</b></span> an Academic Tutor
+          and a Front-End Developer in training who resides in Lagos, I help
+          students develop and improve literacy and numeracy skills. I organize
+          one to one tutoring as well as small and large group sessions. My
+          story in the journey is kind of funny because I started with machine
+          learning back then in school because I didn't see anyone to put me
+          through, I later stopped when I found it boring. One of the
+          interesting things that happened to me this year is pursuing a career
+          in tech, and I'm really proud of the decision I've made. After having
+          read and watched many resources this year, I'm glad I stumbled on
+          Ingressive for good and zuri training platform that enabled me to put
+          all that I have learnt into practice, still learning as much as I can.
+          what made me venture into tech is not majorly because of the juicy
+          part of it but because of the fact that I love solving problems, . I
+          aspire to lay hands on big projects as time goes on.
+        </p>
+      </div>
+      <br />
+
+      <div>
+        <h3>Hobbies</h3>
+        <ol>
+          <li class="active1">Reading |</li>
+
+          <li class="active1">Playing talking drums |</li>
+          <li class="active1">Teaching |</li>
+          <li class="active1">Coding |</li>
+          <li class="active1">Playing Games |</li>
+          <li class="active1">Listening to Music |</li>
+          <li class="active1">Playing Games</li>
+        </ol>
+      </div>
+
+      <div>
+        <h3>Priorities</h3>
+        <ol>
+          <li class="active1">Preaching the Gospel |</li>
+          <li class="active1">Health |</li>
+          <li class="active1">Family |</li>
+          <li class="active1">Education</li>
+        </ol>
+      </div>
+      <div>
+        <h3>Skills</h3>
+        <ol>
+          <li class="active1">Microsoft Word |</li>
+          <li class="active1">Adobe Photoshop |</li>
+          <li class="active1">HTML5 |</li>
+          <li class="active1">CSS |</li>
+          <li class="active1">Javascript</li>
+        </ol>
+      </div>
+
+      <br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br />
+    </main>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <footer>
+      <button id="button" type="button">
+        <a href="contact.html">Contact Me</a>
+      </button>
+      <hr />
+      <p class="p">&copy 2022 | Designed by Opeyemi | All Right Reserved</p>
+      <div class="container">
+        <p><b>Connect with me here:</b></p>
+        <a href="https://www.facebook.com/olatunbosun.opeyemi.9"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+
+        <a href="https://github.com/dem199"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://twitter.com/olatunb67146838"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="http://wa.me/+2348176779961">
+          <i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a href="https://linkedin.com/in/opeyemi-olatunbosun-85b30b163"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/olatunbosun.opeyemi.9"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.quora.com/profile/Olatunbosun-Opeyemi-Ademola?"
+          ><i class="fa-brands fa-quora"></i
+        ></a>
+        <a href="https://medium.com/@olatunbosunopeyemi186035"
+          ><i class="fa-brands fa-medium"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

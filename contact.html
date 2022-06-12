@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <script
+      src="https://kit.fontawesome.com/eac77771df.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+    
+      .body {
+        background-image: url("IMG_3643.PNG");
+        background-size: cover;
+        font-family: "Times New Roman", Times, serif;
+        width: 100%;
+        text-align: center;
+      }
+    
+      input {
+        display: inline-block;
+        width: 25%;
+        height: 25%;
+        border: 2px solid blue;
+        border-radius: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: inherit;
+        outline: none;
+        padding: 0.5rem;
+      }
+      input:hover {
+        border-color: green;
+      }
+      #submit{
+        display: inline-block;
+        width: 10%;
+        height: 25%;
+        border: 2px solid blue;
+        border-radius: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: inherit;
+        outline: none;
+        padding: 0.5rem;
+      }
+      #submit:hover{
+        border-color: green;
+
+      }
+
+      input:focus {
+        border-color: crimson;
+      }
+
+      #button:hover {
+        border-color: green;
+      }
+
+      label {
+        display: block;
+        color: blue;
+      }
+      h1 {
+        color: blue;
+      } 
+      #message:hover{
+        border-color: green
+
+      }
+
+      #message:focus {
+        border-color: crimson;
+      }
+      #message{
+        border: 2px solid blue;
+        border-radius: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: inherit;
+        outline: none;
+        padding: 0.5rem;
+
+      }
+      ul {
+        list-style-type: none;
+        padding: 0px;
+
+        margin: 0;
+        overflow: hidden;
+        
+      }
+      li {
+        float: right;
+        border-right: 1px solid blue ;
+        border-style: solid;
+        border-color: blue;
+        border-left: 1px solid blue;
+        border-radius: 12px;
+      }
+      li a {
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+        
+      }
+      li a:hover{
+          background-color: blue;
+          color: white;
+      }
+      .active{
+          background-color:darkgray
+      }
+      .opic {
+        background-color: white;
+      }
+     
+     
+      
+
+      .p {
+        color: blue;
+        justify-content: center;
+      }
+      .fa-facebook {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-facebook:hover {
+        cursor: pointer;
+        color: blue;
+      }
+      .fa-instagram {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-instagram:hover {
+        cursor: pointer;
+        color: red;
+      }
+      .fa-whatsapp {
+        font-size: 40px;
+        color: white;
+      }
+
+      .fa-whatsapp:hover {
+        cursor: pointer;
+        color: green;
+      }
+      .fa-github {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-github:hover {
+        cursor: pointer;
+        color: black;
+      }
+      .fa-twitter {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-twitter:hover {
+        cursor: ponter;
+        color: royalblue ;
+      }
+      .fa-linkedin {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-linkedin:hover {
+        cursor: pointer;
+        color: blue;
+      }
+      .fa-quora {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-quora:hover {
+        cursor: pointer;
+        color: red;
+      }
+      .fa-medium {
+        font-size: 40px;
+        color: white;
+      }
+      .fa-medium:hover {
+        cursor: pointer;
+        color: black;
+      }
+      .container {
+        justify-content: center;
+      }
+      p {
+        text-align: center;
+        color: white;
+        font-weight: 200px;
+        font-size: 15px;
+        line-height: 30px;
+        
+      }
+      @media screen and (max-width: 600px){
+        li a {
+          
+          display: flex;
+          color: blue;
+          text-align: center;
+          padding: 10px 10px;
+          text-decoration: none;
+          font-size: 10px;
+          font-weight: bold;
+        
+        }
+        input {
+        
+        width: 70%;
+        height: 5px;
+        font-size: 12px;  
+        
+      }
+
+      #message{
+        width: 80%;
+        height: 30px;
+        
+
+      }
+
+      
+      #submit{
+        width: 15%;
+        font-size: 12px
+      }
+      li {
+          float: right;
+          padding: 5px 5px;
+
+          font-size: 10px;
+        }
+      .fa-brands{
+        font-size: 20px;
+      }
+      
+
+      }
+    </style>
+  </head>
+  <body class="body">
+    <header>
+      <nav>
+        <ul>
+            <li><a class="active" href="index.html">ABOUT ME</a></li>
+            <li><a class="opic" href="contact.html">CONTACT ME</a></li>
+            <li><a class="active" href="registration.html">REGISTER</a></li>
+            <li><a class="opic" href="login.html">LOGIN</a></li>
+          </ul>
+        </nav>
+        <br><br><br>
+        
+        <h1>CONTACT ME</h1>
+        <br>
+        
+    </header>
+        
+        
+   
+    <main>
+      <form action="" target="-self" method="get">
+        <div class="boxed">
+          <h4>
+            <label for="name">Name:</label>
+
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              required
+              placeholder="Name"
+            />
+          </h4>
+          
+
+          <h4>
+            <label for="Email">Email:</label>
+          
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          /><h/4>
+        
+
+          <h4>
+              <label for="Message">Message:</label>
+              
+          <textarea
+            id="message"
+            name="text"
+            rows="6"
+            cols="100"
+            placeholder="Type Message"
+            required
+          ></textarea>
+          </h4>
+          
+
+          <input type="submit" id="submit" value="Submit" />
+        </div>
+      </form>
+      <br>
+
+      <br>
+      
+    </main>
+
+    <br />
+    <hr />
+    <footer>
+      <p class="p">&copy 2022 | Designed by Opeyemi | All Right Reserved</p>
+      <div class="container">
+        <p><b>Connect with me here:</b></p>
+        <a href="https://www.facebook.com/olatunbosun.opeyemi.9"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+
+        <a href="https://github.com/dem199"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://twitter.com/olatunb67146838"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="http://wa.me/+2348176779961">
+          <i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a href="https://linkedin.com/in/opeyemi-olatunbosun-85b30b163"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/olatunbosun.opeyemi.9"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.quora.com/profile/Olatunbosun-Opeyemi-Ademola?"
+        ><i class="fa-brands fa-quora"></i
+      ></a>
+      <a href="https://medium.com/@olatunbosunopeyemi186035"
+        ><i class="fa-brands fa-medium"></i
+      ></a>
+      </div>
+    </footer>
+  </body>
+</html>
